@@ -15,5 +15,9 @@ namespace EFCoreLearning.Model
 
         [StringLength(50)]
         public string Provider { set; get; }
+
+        public Category Category;
+
+        public int? CategoryID { set; get; }
     }
 }
