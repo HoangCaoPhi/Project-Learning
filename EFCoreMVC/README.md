@@ -1,0 +1,1 @@
+# Project learning from: https://learn.microsoft.com/en-us/aspnet/core/data/ef-mvc/crud?view=aspnetcore-8.0

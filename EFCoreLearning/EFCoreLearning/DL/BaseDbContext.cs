@@ -18,6 +18,7 @@ namespace EFCoreLearning.DL
         {
             optionsBuilder
                 .UseLoggerFactory(loggerFactory)
+                .UseLazyLoadingProxies()
                 .UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
         }
     }

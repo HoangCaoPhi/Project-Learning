@@ -14,5 +14,7 @@ namespace EFCoreLearning.Model
 
         [Column(TypeName = "ntext")]
         public string Description { set; get; }
+
+        public virtual List<Product> Products { get; set; }
     }
 }

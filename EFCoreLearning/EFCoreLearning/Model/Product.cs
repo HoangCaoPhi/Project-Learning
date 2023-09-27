@@ -16,8 +16,12 @@ namespace EFCoreLearning.Model
         [StringLength(50)]
         public string Provider { set; get; }
 
-        public Category Category;
+        public virtual Category Category { set; get; }
 
         public int? CategoryID { set; get; }
+
+        public int? UserPostId { set; get; }         // Lưu thông tin người Post sản phẩm
+
+        public virtual User UserPost { set; get; }    // Tham chiếu User
     }
 }
